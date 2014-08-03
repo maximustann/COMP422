@@ -2,6 +2,7 @@
 import Image
 import numpy
 import math
+import sys
 
 def get_pixel(pixel, img, row, col):
     for i in xrange(3):
@@ -60,21 +61,23 @@ def sobel(gx, gy, pixel, threshold, row, col, saved_img):
 
 if __name__ == "__main__":
 
-    im = Image.open('test.tif')
-    my_im = Image.new("L", (500, 500))
+    im = Image.open(sys.argv[1])
+    width = im.size[0]
+    height = im.size[1]
+    my_im = Image.new("L", (width, height))
     my_im_array = numpy.array(my_im)
     imarray = numpy.array(im)
-    gx = [[-1, 0, 1],
+    gx = [
+            [-1, 0, 1],
             [-2, 0, 2],
             [-1, 0, 1]]
 
-    gy = [[1, 2, 1], 
+    gy = [
+            [1, 2, 1], 
             [0, 0, 0], 
             [-1, -2, -1]]
 
-    col = 500
-
     threshold = 90
-    scan_image(imarray, my_im_array, 500, 500, threshold)
+    scan_image(imarray, my_im_array, width, height, threshold)
     mytiff = Image.fromarray(my_im_array)
-    mytiff.save("mytiff.tiff")
+    mytiff.save(sys.argv[2])
