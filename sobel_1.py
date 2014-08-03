@@ -30,12 +30,12 @@ def set_pixel_write(img, row, col):
     pixel = [[255 for x in xrange(3)] for x in xrange(3)]
     write_pixel(pixel, img, row, col)
 
-def scan_image(img, saved_img, col, row, threshold):
+def scan_image(img, saved_img, row, col, threshold):
     for i in xrange(row - 2):
         for j in xrange(col - 2):
             pixel = [[0 for x in xrange(3)] for x in xrange(3)]
             get_pixel(pixel, img, i, j)
-            pixel = sobel(gx, gy, pixel, threshold, i, j, saved_img)
+            sobel(gx, gy, pixel, threshold, i, j, saved_img)
     return saved_img
 
 
@@ -78,6 +78,6 @@ if __name__ == "__main__":
             [-1, -2, -1]]
 
     threshold = 90
-    scan_image(imarray, my_im_array, width, height, threshold)
+    scan_image(imarray, my_im_array, height, width, threshold)
     mytiff = Image.fromarray(my_im_array)
     mytiff.save(sys.argv[2])
