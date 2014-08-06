@@ -1,1 +1,24 @@
-This is Max's comp422 assignment...
+#This readme shows how to run these programs.
+#'>' means the start of the commandline in Unix system.
+
+1. Sobel Edge Detection
+
+>python sobel.py [original filename] [generated filename]
+
+ex.
+>python sobel.py test.tif sobel_test.png
+
+
+2. Mean Filtering
+
+>python mean_3.py [original filename] [generated filename]
+>python mean_5.py [original filename] [generated filename]
+
+3. Median Filtering
+>python median.py [original filename] [generated filename]
+
+4. Laplace Filtering
+>python laplace.py [original filename] [generated filename]
+
+5. Otsu Filtering
+>python otsu.py [original filename] [generated filename]
