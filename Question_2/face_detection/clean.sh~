@@ -1,0 +1,4 @@
+#!/usr/pkg/bin/tcsh
+
+rm result/training/*
+rm result/testing/*

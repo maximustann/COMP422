@@ -1,0 +1,17 @@
+#This readme shows how to run these programs.
+#'>' means the start of the commandline in Unix system.
+
+Excuting run_every_program.sh will automatically run all the programs in program, 
+including sobel edge detection, mean filter, median filter, laplace sharpen.
+
+Target pictures will be generated in directory ./pics/result/.
+
+
+If you would like to run programs individually, follow the instruction below:
+1. Sobel Edge Detection
+>python sobel.py [original filename] [generated filename]
+
+ex.
+>python ./program/sobel.py ./pics/test.tif ./pics/result/sobel_test.png
+
+
