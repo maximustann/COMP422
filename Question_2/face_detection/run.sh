@@ -12,7 +12,9 @@ foreach i (1 2 3 4 5)
 	python ./src/cal_mean_and_var.py result/training/ non_face_${i}_dataset.csv
 
 
-	python src/naive_bayes.py result/testing/face_sample_${i}_dataset.csv result/testing/non_face_${i}_dataset.csv result/training/mean_face_sample_${i}_dataset.csv result/training/mean_non_face_${i}_dataset.csv
+	foreach j (1 2 3 4 5)
+		python src/naive_bayes.py result/testing/face_sample_${j}_dataset.csv result/testing/non_face_${j}_dataset.csv result/training/mean_face_sample_${i}_dataset.csv result/training/mean_non_face_${i}_dataset.csv
+	end
 end
 
 Rscript src/roc.r

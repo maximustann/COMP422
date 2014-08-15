@@ -1,5 +1,5 @@
 data <- read.csv('result/tp_fp.csv', header=T, sep=',')
-y = as.numeric(levels(data$tp))
+y = array(data$tp)
 x = data$fp
 y = sort(y)
 x = sort(x)
