@@ -24,8 +24,8 @@ def write_pixel(pixel, img, row, col):
     return img
 
 def scan_image(img, row, col):
-    for i in xrange(row - 3):
-        for j in xrange(col - 3):
+    for i in xrange(row - 2):
+        for j in xrange(col - 2):
             pixel = [[0 for x in xrange(3)] for x in xrange(3)]
             get_pixel(pixel, img, i, j)
             img = median(pixel, img, i, j)

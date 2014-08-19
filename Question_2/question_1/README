@@ -1,17 +1,16 @@
 #This readme shows how to run these programs.
 #'>' means the start of the commandline in Unix system.
 
-Excuting run_every_program.sh will automatically run all the programs in program, 
-including otsu method.
+Excuting run.sh will automatically run all the programs in src,
+including otsu method, mean method.
 
-Target pictures will be generated in directory ./pics/result/.
-
+Original images store in directory ./pics/
+Target imagess will be generated in directory ./pics/result/.
 
 If you would like to run programs individually, follow the instruction below:
-1. Sobel Edge Detection
->python otsu.py [original filename] [generated filename]
+1.Otsu's method with median filter
+>python ./src/median.py [original filename] [generated filename]
+>python ./src/otsu.py [original filename] [generated filename]
 
-ex.
->python ./src/otsu.py ./pics/test.tif ./pics/result/otsu_test.png
-
-
+2.mean method
+>python ./src/mean.py [original filename] [generated filename] [threshold]
