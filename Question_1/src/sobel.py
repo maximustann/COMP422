@@ -17,14 +17,6 @@ def write_pixel(pixel, img, row, col):
     img[row + 1][col + 1] = pixel[1][1]
     return img
 
-def set_pixel_black(img, row, col):
-    pixel = [[0 for x in xrange(3)] for x in xrange(3)]
-    write_pixel(pixel, img, row, col)
-
-def set_pixel_write(img, row, col):
-    pixel = [[255 for x in xrange(3)] for x in xrange(3)]
-    write_pixel(pixel, img, row, col)
-
 def scan_image(img, saved_img, row, col):
     for i in xrange(row - 2):
         for j in xrange(col - 2):

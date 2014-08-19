@@ -24,8 +24,8 @@ def write_pixel(pixel, img, row, col):
     return img
 
 def scan_image(img, col, row, operator):
-    for i in xrange(row - 5):
-        for j in xrange(col - 5):
+    for i in xrange(row - 4):
+        for j in xrange(col - 4):
             pixel = [[0 for x in xrange(5)] for x in xrange(5)]
             get_pixel(pixel, img, i, j)
             img = mean(operator, pixel, img, i, j)
