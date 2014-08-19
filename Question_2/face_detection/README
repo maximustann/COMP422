@@ -12,7 +12,7 @@ The shell script run.sh would need two Arguments:
 	1. The path of "test" directory
 	2. The path of "train" directory
 
-Both directories come from the extracting Compressed packages which were provided on the course home page.
+Both directories come from extracting the Compressed packages which were provided on the course home page.
 
 In the "test" or "train" directory, the structure should looks like this:
 	test/
