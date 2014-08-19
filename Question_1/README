@@ -1,10 +1,12 @@
-#This readme shows how to run these programs.
+#This readme will show you how to run these programs.
 #'>' means the start of the commandline in Unix system.
 
-Excuting run_every_program.sh will automatically run all the programs in program, 
+Excuting run.sh will automatically run all the programs in src, 
 including sobel edge detection, mean filter, median filter, laplace sharpen.
+>./run.sh
 
-Target pictures will be generated in directory ./pics/result/.
+Original images store in directory ./pics/
+Generated pictures will be in directory ./pics/result/.
 
 
 If you would like to run programs individually, follow the instruction below:
@@ -12,6 +14,6 @@ If you would like to run programs individually, follow the instruction below:
 >python sobel.py [original filename] [generated filename]
 
 ex.
->python ./program/sobel.py ./pics/test.tif ./pics/result/sobel_test.png
+>python ./src/sobel.py ./pics/test.tif ./pics/result/sobel_test.png
 
-
+Others are used in the same way.
