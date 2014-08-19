@@ -1,0 +1,19 @@
+#This Readme will show you how to run these scripts.
+
+The Shell script run.sh would need one Argument:
+	
+	The path of mfeat-digits directory
+
+In the mfeat-digits, the structure should looks like this:
+	mfeat-digits/
+		-mfeat-fac
+		-mfeat-fou
+		-mfeat-kar
+		...
+
+The run.sh would need the permission of reading these files, so please give permission to
+these files in advance:
+>chmod a+r [mfeat-digits directory] -R
+
+Then:
+./run.sh [mfeat-digits directory]
