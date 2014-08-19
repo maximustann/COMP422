@@ -1,0 +1,33 @@
+#This Readme will show you how to run the face detection program
+
+First step: clean.
+There are many generated results remain in the result directory.
+If you want to clean them up and generate new result, please run clean.sh.
+>./clean.sh
+
+Second step: Generate Samples.
+
+The shell script run.sh would need two Arguments: 
+
+	1. The path of "test" directory
+	2. The path of "train" directory
+
+Both directories come from the extracting Compressed packages which were provided on the course home page.
+
+In the "test" or "train" directory, the structure should looks like this:
+	test/
+		face/
+		non-face/
+
+	train/
+		face/
+		non-face/
+
+The run.sh would need the permission of reading these files, so please give permission to these files advance:
+>chmod a+r test -R
+>chmod a+r train -R
+
+Third step :Run the script.
+./run.sh [test directory] [train directory]
+
+
