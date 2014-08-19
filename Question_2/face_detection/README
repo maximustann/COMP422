@@ -23,7 +23,7 @@ In the "test" or "train" directory, the structure should looks like this:
 		face/
 		non-face/
 
-The run.sh would need the permission of reading these files, so please give permission to these files advance:
+The run.sh would need the permission of reading these files, so please give permission to these files in advance:
 >chmod a+r test -R
 >chmod a+r train -R
 
