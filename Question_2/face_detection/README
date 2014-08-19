@@ -24,8 +24,8 @@ In the "test" or "train" directory, the structure should looks like this:
 		non-face/
 
 The run.sh would need the permission of reading these files, so please give permission to these files in advance:
->chmod a+r test -R
->chmod a+r train -R
+>chmod a+r [test directory] -R
+>chmod a+r [train directory] -R
 
 Third step :Run the script.
 ./run.sh [test directory] [train directory]
