@@ -74,7 +74,6 @@ if __name__ == "__main__":
             [0, 0, 0], 
             [-1, -2, -1]]
 
-    threshold = 90
     scan_image(imarray, my_im_array, height, width)
     mytiff = Image.fromarray(my_im_array)
     mytiff.save(sys.argv[2])
