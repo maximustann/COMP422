@@ -1,0 +1,7 @@
+#!/usr/pkg/bin/tcsh
+
+
+./src/do.sh $1
+./src/do_more.sh $1
+.src/clean.sh
+

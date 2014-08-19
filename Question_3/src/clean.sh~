@@ -1,0 +1,3 @@
+#!/usr/pkg/bin/tcsh
+
+rm /result/mfeat_*

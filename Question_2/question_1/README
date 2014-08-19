@@ -12,6 +12,6 @@ If you would like to run programs individually, follow the instruction below:
 >python otsu.py [original filename] [generated filename]
 
 ex.
->python ./program/otsu.py ./pics/test.tif ./pics/result/otsu_test.png
+>python ./src/otsu.py ./pics/test.tif ./pics/result/otsu_test.png
 
 
