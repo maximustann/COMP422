@@ -11,6 +11,6 @@ echo Median filtering
 python ./src/median.py ./pics/ckt.png ./pics/result/median_ckt.png
 
 echo Picture shapen using Laplace filtering
-python ./src/laplace.py ./pics/blurry-moon.tif ./pics/result/shape_moon.png
+python ./src/laplace.py ./pics/blurry-moon.tif ./pics/result/sharp_moon.png
 
 echo Finished
