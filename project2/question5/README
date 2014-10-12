@@ -1,0 +1,3 @@
+After run the run.sh script, new feature file will generate in the result directory.
+Then, run the transfer.sh script transfer the .csv file to .arff file
+./transfer.sh [.arff] [.csv]

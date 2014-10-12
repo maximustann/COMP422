@@ -1,0 +1,137 @@
+%% $RCSfile: proj_proposal.tex,v $
+%% $Revision: 1.2 $
+%% $Date: 2010/04/23 02:40:16 $
+%% $Author: kevin $
+
+\documentclass[11pt, a4paper, oneside, openright]{article}
+
+\usepackage{float} % lets you have non-floating floats
+\usepackage{url} % for typesetting urls
+\usepackage{graphicx} % for including images
+
+\newfloat{fig}{thp}{lof}[section]
+\floatname{fig}{Figure}
+
+
+\title{COMP422 Project 2 Report}
+\author{Boxiong Tan}
+
+\usepackage[font,ecs]{vuwproject}
+
+% Unless you've used the bschonscomp or mcompsci
+%  options above use
+   \otherdegree{COMP422 --- Data Mining, Neural Networks and Genetic Programming}
+% here to specify degree
+
+% Comment this out if you want the date printed.
+%\date{}
+
+\begin{document}
+
+% Make the page numbering roman, until after the contents, etc.
+\frontmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+
+%\tableofcontents
+
+% we want a list of the figures we defined
+%\listof{fig}{Figures}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+This report contains six questions. The first is XOR problem using multilayer
+feedforward neural network and genetic programming. Then make a comparison between
+these two approaches.
+
+\section{Model-Driven Development}
+
+
+
+\section{Business Process Models}
+
+\section{Selected Domain and Idea Being Modelled}
+
+
+
+\section{Selected Modelling Tool}
+
+\section{The Business Process Modelling Notation}
+
+  \begin{figure}[!ht]
+  \centerline{\fbox{\includegraphics[scale=0.15]{eventTypes.png}}}
+  \caption{Representation of BPMN event types \cite{bpmWiki}.}
+  \label{fig:eventTypes}
+  \end{figure}
+
+
+\section{Selected Notation Subset}
+
+\section{Creating the Metamodel}
+
+
+\section{Addition of Model Constraints}
+
+
+\section{Creating the Model}
+
+
+\section{Model Translation}
+
+
+\section{Critical Evaluation of GME}
+
+\section{Critical Evaluation of Project Results}
+
+
+\section{Work Distribution in Team}
+
+
+\begin{table}[H]
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Activity}}                    & \multicolumn{1}{c|}{\textbf{Responsible Team Member}} \\
+\hline
+Decision of tool, language and concept to be modelled.     & Ashleigh and Alex                                    \\
+\hline
+Design of metamodel.                                       & Ashleigh and Alex                                    \\
+\hline
+Creation of metamodel.                                     & Ashleigh                                             \\
+\hline
+Design and implementation of OCL constraints in metamodel. & Ashleigh                                             \\
+\hline
+Creation of model.                                         & Alex                                                 \\
+\hline
+Design and creation of Java code.                          & Alex                                                 \\
+\hline
+Implementation of interpreter.                             & Alex                                                 \\
+\hline
+Writing and editing of report.                             & Ashleigh and Alex									  \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{ieeetr}
+\bibliographystyle{acm}
+\bibliography{SWEN424ReportBibliography}
+\end{document}

@@ -19,57 +19,63 @@ def pro_face(df, target_img):
     #left_eye
     mean_left_eye = df.left_eye.ix[0]
     var_left_eye = df.left_eye.ix[1]
-    pros[0] = formula(left_eye, mean_left_eye, var_left_eye)
+    pros[0] = gaussian(left_eye, mean_left_eye, var_left_eye)
 
     #forehead
     mean_forehead = df.forehead.ix[0]
     var_forehead = df.forehead.ix[1]
-    pros[1] = formula(forehead, mean_forehead, var_forehead)
+    pros[1] = gaussian(forehead, mean_forehead, var_forehead)
 
     #right_eye
     mean_right_eye = df.right_eye.ix[0]
     var_right_eye = df.right_eye.ix[1]
-    pros[2] = formula(right_eye, mean_right_eye, var_right_eye)
+    pros[2] = gaussian(right_eye, mean_right_eye, var_right_eye)
 
     #nose_bridge
     mean_nose_bridge = df.nose_bridge.ix[0]
     var_nose_bridge = df.nose_bridge.ix[1]
-    pros[3] = formula(nose_bridge, mean_nose_bridge, var_nose_bridge)
+    pros[3] = gaussian(nose_bridge, mean_nose_bridge, var_nose_bridge)
 
     #left_cheek
     mean_left_cheek = df.left_cheek.ix[0]
     var_left_cheek = df.left_cheek.ix[1]
-    pros[4] = formula(left_cheek, mean_left_cheek, var_left_cheek)
+    pros[4] = gaussian(left_cheek, mean_left_cheek, var_left_cheek)
 
     #right_cheek
     mean_right_cheek = df.right_cheek.ix[0]
     var_right_cheek = df.right_cheek.ix[1]
-    pros[5] = formula(right_cheek, mean_right_cheek, var_right_cheek)
+    pros[5] = gaussian(right_cheek, mean_right_cheek, var_right_cheek)
 
     #nose
     mean_nose = df.nose.ix[0]
     var_nose = df.nose.ix[1]
-    pros[6] = formula(nose, mean_nose, var_nose)
+    pros[6] = gaussian(nose, mean_nose, var_nose)
     
     #mouth
     mean_mouth = df.mouth.ix[0]
     var_mouth = df.mouth.ix[1]
-    pros[7] = formula(mouth, mean_mouth, var_mouth)
+    pros[7] = gaussian(mouth, mean_mouth, var_mouth)
 
     result = _mul(pros)
     return result
 
 def _mul(pros):
-    sum = 1
+    product = 1
     for pro in pros:
-        sum *= pro
-    return sum
+        product *= pro
+    return product
 
 def readfile(filename):
     df = pandas.read_csv(filename)
     return df
 
-def formula(value, mean, var):
+def gaussian(value, mean, var):
+    '''
+        gaussian distribution needs 3 parameters:
+            x
+            mean value
+            variance
+    '''
     w = 1 / math.sqrt(2 * math.pi * var)
     k = math.exp(0.5 * (-math.pow((value - mean), 2) / (2 * var)))
     return w * k
@@ -98,11 +104,12 @@ def distributor(result_file, dataset, face_file, non_face_file):
     result_dataset = []
     for img in dataset:
         item = []
-        face_pro = pro_face(face_file, img)
-        non_face_pro = pro_face(non_face_file, img)
-        item.append(_compare(face_pro, non_face_pro))
+        face_pro = pro_face(face_file, img)             #calculate face probability
+        non_face_pro = pro_face(non_face_file, img)     #calculate non-face probablity
+        item.append(_compare(face_pro, non_face_pro))#compare face pro and non-face pro, store result
         result_dataset.append(item)
 
+    #tp or fp is generated here
     per = percentage(result_dataset)
     with open(result_file, 'wb') as f:
         writer = csv.writer(f)
