@@ -1,9 +1,28 @@
 \begin{thebibliography}{1}
 
+\bibitem{DEAP_JMLR2012}
+{\sc Fortin, F.-A., {De Rainville}, F.-M., Gardner, M.-A., Parizeau, M., and
+  Gagn\'e, C.}
+\newblock {DEAP}: Evolutionary algorithms made easy.
+\newblock {\em Journal of Machine Learning Research 13\/} (jul 2012),
+  2171--2175.
+
+\bibitem{Hall:2009:WDM:1656274.1656278}
+{\sc Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P., and
+  Witten, I.~H.}
+\newblock The weka data mining software: An update.
+\newblock {\em SIGKDD Explor. Newsl. 11}, 1 (Nov. 2009), 10--18.
+
 \bibitem{koza1992genetic}
 {\sc Koza, J.~R.}
 \newblock {\em Genetic programming: on the programming of computers by means of
   natural selection}, vol.~1.
 \newblock MIT press, 1992.
+
+\bibitem{Petron99}
+{\sc Petron, E.}
+\newblock {Stuttgart Neural Network Simulator: Exploring connectionism and
+  machine learning with SNNS}.
+\newblock {\em Linux J.\/} (1999).
 
 \end{thebibliography}

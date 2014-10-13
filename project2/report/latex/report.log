@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2014.6.21)  12 OCT 2014 17:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2014.6.21)  13 OCT 2014 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,14 +208,7 @@ Modified to handle duplex printing properly 2006
 LaTeX Warning: Unused global option(s):
     [openright].
 
-(./report.aux
-
-LaTeX Warning: Label `fig:confusion' multiply defined.
-
-
-LaTeX Warning: Label `fig:confusion' multiply defined.
-
-)
+(./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -298,37 +291,37 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \big@size=\dimen170
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 46.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 49.
 
 
 (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 49.
 
 
 (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 46.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 49.
 
 
 (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 49.
 
 
 (/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 49.
 
 ! Undefined control sequence.
 <argument> ...restore \center \large \@supervisor 
                                                   \@@par 
-l.46 \maketitle
+l.49 \maketitle
                
 ? 
 
@@ -338,7 +331,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \maketitle
+l.49 \maketitle
                
 ? 
 
@@ -348,71 +341,72 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \maketitle
+l.49 \maketitle
                
 ? 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 49.
 [0
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 59.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 68.
 
 <./pics/TruthTable.png, id=10, 110.90941pt x 132.37575pt>
 File: ./pics/TruthTable.png Graphic file (type png)
 
 <use ./pics/TruthTable.png>
-Package pdftex.def Info: ./pics/TruthTable.png used on input line 81.
+Package pdftex.def Info: ./pics/TruthTable.png used on input line 79.
 (pdftex.def)             Requested size: 99.81754pt x 119.13705pt.
  [1
 
  <./pics/TruthTable.png>]
-Overfull \hbox (22.67862pt too wide) in paragraph at lines 100--113
-[][] 
+Overfull \hbox (22.67862pt too wide) in paragraph at lines 99--112
+ [][] 
  []
 
 <pics/boxplot.png, id=18, 822.16069pt x 460.09515pt>
 File: pics/boxplot.png Graphic file (type png)
  <use pics/boxplot.png>
-Package pdftex.def Info: pics/boxplot.png used on input line 130.
+Package pdftex.def Info: pics/boxplot.png used on input line 128.
 (pdftex.def)             Requested size: 452.18977pt x 253.05312pt.
 
 <pics/neural.png, id=19, 179.60168pt x 266.89812pt>
 File: pics/neural.png Graphic file (type png)
  <use pics/neural.png>
-Package pdftex.def Info: pics/neural.png used on input line 142.
+Package pdftex.def Info: pics/neural.png used on input line 140.
 (pdftex.def)             Requested size: 161.64pt x 240.20607pt.
 
-[2] [3 <./pics/boxplot.png> <./pics/neural.png>]
-<pics/errorate.png, id=28, 324.14168pt x 170.2996pt>
+<pics/errorate.png, id=20, 324.14168pt x 170.2996pt>
 File: pics/errorate.png Graphic file (type png)
  <use pics/errorate.png>
-Package pdftex.def Info: pics/errorate.png used on input line 152.
+Package pdftex.def Info: pics/errorate.png used on input line 150.
 (pdftex.def)             Requested size: 291.72481pt x 153.26822pt.
 
+[2] [3 <./pics/boxplot.png> <./pics/neural.png>]
 <pics/aftertrain.png, id=29, 264.75148pt x 201.06802pt>
 File: pics/aftertrain.png Graphic file (type png)
 
 <use pics/aftertrain.png>
-Package pdftex.def Info: pics/aftertrain.png used on input line 160.
+Package pdftex.def Info: pics/aftertrain.png used on input line 158.
 (pdftex.def)             Requested size: 238.27412pt x 180.95953pt.
 
 <pics/neural_2.png, id=30, 206.07683pt x 166.00633pt>
 File: pics/neural_2.png Graphic file (type png)
  <use pics/neural_2.png>
-Package pdftex.def Info: pics/neural_2.png used on input line 168.
+Package pdftex.def Info: pics/neural_2.png used on input line 166.
 (pdftex.def)             Requested size: 185.46742pt x 149.40431pt.
 
-[4 <./pics/errorate.png> <./pics/aftertrain.png>] [5 <./pics/neural_2.png>]
-<pics/confusion.png, id=40, 160.28198pt x 157.4198pt>
+[4 <./pics/errorate.png> <./pics/aftertrain.png>]
+<pics/confusion.png, id=36, 160.28198pt x 157.4198pt>
 File: pics/confusion.png Graphic file (type png)
  <use pics/confusion.png>
-Package pdftex.def Info: pics/confusion.png used on input line 216.
+Package pdftex.def Info: pics/confusion.png used on input line 215.
 (pdftex.def)             Requested size: 144.25243pt x 141.6765pt.
 
+[5 <./pics/neural_2.png>]
 <pics/confusion_2.png, id=41, 206.79237pt x 159.56644pt>
 File: pics/confusion_2.png Graphic file (type png)
 
@@ -424,25 +418,25 @@ Package pdftex.def Info: pics/confusion_2.png used on input line 249.
 File: pics/confusion_3.png Graphic file (type png)
 
 <use pics/confusion_3.png>
-Package pdftex.def Info: pics/confusion_3.png used on input line 283.
+Package pdftex.def Info: pics/confusion_3.png used on input line 284.
 (pdftex.def)             Requested size: 184.17944pt x 144.25243pt.
  [7 <./pics/confusion_2.png> <./pics/confusion_3.png>] <pics/formula.png, id=53
 , 295.5199pt x 56.52802pt>
 File: pics/formula.png Graphic file (type png)
  <use pics/formula.png>
-Package pdftex.def Info: pics/formula.png used on input line 328.
+Package pdftex.def Info: pics/formula.png used on input line 330.
 (pdftex.def)             Requested size: 265.96544pt x 50.87473pt.
 
 <pics/negative.png, id=54, 250.4406pt x 208.93901pt>
 File: pics/negative.png Graphic file (type png)
  <use pics/negative.png>
-Package pdftex.def Info: pics/negative.png used on input line 337.
+Package pdftex.def Info: pics/negative.png used on input line 339.
 (pdftex.def)             Requested size: 125.21999pt x 104.46924pt.
 
 <pics/positive.png, id=55, 257.59604pt x 208.93901pt>
 File: pics/positive.png Graphic file (type png)
  <use pics/positive.png>
-Package pdftex.def Info: pics/positive.png used on input line 342.
+Package pdftex.def Info: pics/positive.png used on input line 344.
 (pdftex.def)             Requested size: 128.7977pt x 104.46924pt.
 
 [8 <./pics/formula.png> <./pics/negative.png> <./pics/positive.png>]
@@ -450,8 +444,8 @@ Package pdftex.def Info: pics/positive.png used on input line 342.
 File: pics/generations.png Graphic file (type png)
 
 <use pics/generations.png>
-Package pdftex.def Info: pics/generations.png used on input line 373.
-(pdftex.def)             Requested size: 288.72153pt x 207.5074pt.
+Package pdftex.def Info: pics/generations.png used on input line 374.
+(pdftex.def)             Requested size: 230.9737pt x 166.00339pt.
  [9 <./pics/generations.png>] [10]
 Missing character: There is no ï in font pplr7t!
 Missing character: There is no ¼ in font pplr7t!
@@ -460,151 +454,142 @@ Missing character: There is no ‰ in font pplr7t!
 <pics/classes.png, id=71, 475.83713pt x 135.23792pt>
 File: pics/classes.png Graphic file (type png)
  <use pics/classes.png>
-Package pdftex.def Info: pics/classes.png used on input line 430.
+Package pdftex.def Info: pics/classes.png used on input line 448.
 (pdftex.def)             Requested size: 380.67021pt x 108.19046pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 454--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 454--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 454--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 454--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 454--470
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 471--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--453
+Underfull \hbox (badness 10000) in paragraph at lines 471--482
 
  []
 
-[11 <./pics/classes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 454--465
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--465
-
- []
-
-<pics/classes_2.png, id=76, 477.26822pt x 135.23792pt>
+<pics/classes_2.png, id=75, 477.26822pt x 135.23792pt>
 File: pics/classes_2.png Graphic file (type png)
 
 <use pics/classes_2.png>
-Package pdftex.def Info: pics/classes_2.png used on input line 467.
+Package pdftex.def Info: pics/classes_2.png used on input line 484.
 (pdftex.def)             Requested size: 381.81508pt x 108.19046pt.
- <pics/matrix.png, id=77, 135.95346pt x 55.81247pt>
+ <pics/matrix.png, id=76, 135.95346pt x 55.81247pt>
 File: pics/matrix.png Graphic file (type png)
 
 <use pics/matrix.png>
-Package pdftex.def Info: pics/matrix.png used on input line 478.
+Package pdftex.def Info: pics/matrix.png used on input line 495.
 (pdftex.def)             Requested size: 135.95313pt x 55.81232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--483
+Underfull \hbox (badness 10000) in paragraph at lines 489--500
 
  []
 
-[12 <./pics/classes_2.png> <./pics/matrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 516--524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--524
+[12 <./pics/classes.png> <./pics/classes_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 534--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--533
+Underfull \hbox (badness 10000) in paragraph at lines 534--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--533
+Underfull \hbox (badness 10000) in paragraph at lines 542--550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--563
+Underfull \hbox (badness 10000) in paragraph at lines 542--550
+
+ []
+
+[13 <./pics/matrix.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 573--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--563
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 565--572
+Underfull \hbox (badness 10000) in paragraph at lines 573--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--572
+Underfull \hbox (badness 10000) in paragraph at lines 583--590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--583
+Underfull \hbox (badness 10000) in paragraph at lines 583--590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--583
+Underfull \hbox (badness 10000) in paragraph at lines 592--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--594
+Underfull \hbox (badness 10000) in paragraph at lines 592--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--594
+Underfull \hbox (badness 10000) in paragraph at lines 603--612
 
  []
 
-[14] (./report.bbl) [15
 
-] (./report.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 603--612
 
-LaTeX Warning: There were multiply-defined labels.
+ []
 
- ) 
+[14] [15] (./report.bbl) [16
+
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3507 strings out of 493945
- 50973 string characters out of 6159096
- 115041 words of memory out of 5000000
- 6650 multiletter control sequences out of 15000+600000
+ 3515 strings out of 493945
+ 51093 string characters out of 6159096
+ 115036 words of memory out of 5000000
+ 6658 multiletter control sequences out of 15000+600000
  33987 words of font info for 89 fonts, out of 8000000 for 9000
  774 hyphenation exceptions out of 8191
- 38i,10n,38p,765b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
-plb8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-pkg/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf
--dist/fonts/type1/vuw/vuw20.pfb>
-Output written on report.pdf (16 pages, 236502 bytes).
+ 38i,10n,38p,752b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
+pkg/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
+plr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
+/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
+Output written on report.pdf (17 pages, 250002 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
